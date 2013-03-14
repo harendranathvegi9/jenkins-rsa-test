@@ -1,6 +1,6 @@
 jenkins-rsa-test
 ================
-Test plugin to illustrate NoSuchMethodError with newer bouncy-castle jar with latest Jenkins versions.
+Test plugin to illustrate NoSuchMethodError with newer bouncy-castle jar with latest Jenkins versions.  The jruby-openssl gem version 0.8.2 is required to reproduce the problem.  When running with 0.8.4 and jruby 1.7.3 the problem does not occur.
 
 Steps to Reproduce
 ----------------
