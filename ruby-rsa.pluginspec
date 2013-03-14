@@ -1,7 +1,7 @@
 Jenkins::Plugin::Specification.new do |plugin|
   plugin.name = "ruby-rsa"
   plugin.display_name = "Ruby RSA Plugin"
-  plugin.version = '0.0.5'
+  plugin.version = '0.0.6'
   plugin.description = 'Ruby RSA test plugin to illustrate NoSuchMethodError'
 
   # You should create a wiki-page for your plugin when you publish it, see
